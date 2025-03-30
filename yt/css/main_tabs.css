@@ -1,0 +1,248 @@
+/***************************************************************************
+ * Browse, members, community pages (aka video, channels, community)
+ ***************************************************************************/
+
+/* layout */
+#header-wrapper,
+#body-column {
+  width: 612px;
+  float: left;
+}
+#body-column {
+  margin-top: 4px;
+}
+#right-column {
+  float: right;
+}
+#right-column,
+#right-column #sideAd {
+  width: 326px;
+}
+
+/* headers */
+#main-header {
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+}
+#main-header a {
+  font-weight: bold;
+}
+#header-left .videoModifiers {
+  float: left;
+  width: 612px;
+}
+#header-left .dropdown-link {
+  line-height: 14px;
+}
+#header-left .subcategories {
+  float: right;
+  width: 300px;
+  text-align: right;
+}
+#header-left {
+  line-height: 23px;
+  margin-right: 0;
+  vertical-align: middle;
+}
+#header-wrapper #header-left {
+  font-size: 20px;
+  font-weight: bold;
+  width: auto;
+}
+#header-wrapper {
+  border: 0;
+  height: auto;
+  margin-top: 1px
+}
+#header-wrapper .videoModifiers {
+  text-align: left;
+  border: 0;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+
+/* modifiers */
+.category-selected {
+  font-weight: bold;
+}
+.videoModifiers {
+  padding: 5px 0px;
+}
+.videoModifiers div.subcategory {
+  border-left: 1px solid #ccc;
+  padding: 0px 10px;
+  font-size: 12px;
+  display: inline;
+}
+.videoModifiers div.subcategory a,
+.videoModifiers div.subcategory span {
+  white-space: nowrap;
+}
+.videoModifiers div.first {
+  border-left: 0px;
+  padding: 0px 10px 0px 2px;
+}
+.videoModifiers div.last {
+  padding-right: 5px;
+}
+.videoModifiers a {
+  text-decoration: none;
+}
+.videoModifiers a:hover {
+  text-decoration: underline;
+}
+.videoModifiers a {
+  font-weight: normal;
+}
+.videoModifiers .selected {
+  font-weight: bold;
+  color: black;
+}
+.videoModifiers .not_available,
+.browse-subcat.not_available {
+  color: #aaa !important;
+}
+.subVideoModifiers {
+  text-align: right;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+.subVideoModifiers div.subcategory {
+  font-size: 11px;
+  padding: 0 0 0 10px;
+  margin: 0 0 0 10px;
+}
+.main-tabs-subcategories {
+  clear: left;
+  width: 596px;
+  border: 1px solid #A0B3D9;
+  background-color: #EFF4FD;
+  padding: 7px;
+  margin-bottom: 3px;
+  text-align: left;
+}
+.main-tabs-layout-top .videoModifiers .selected {
+  font-size: 14px;
+}
+
+/* modules */
+.main-tabs-layout-top,
+.main-tabs-layout-mini-top {
+  background-color: #eaeaea;
+  font-size: 16px;
+  font-weight: bold;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 0 0 5px 5px;
+}
+.main-tabs-layout-mini-top {
+  font-size: 12px;
+}
+.main-tabs-top-cap {
+  background: transparent url(/yt/img/browse_iconset_960-vfl68093.png) repeat-x scroll 0 0;
+}
+.main-tabs-bottom-cap {
+  background: transparent url(/yt/img/browse_iconset_960-vfl68093.png) repeat-x scroll 0 -6px;
+}
+.main-tabs-top-cap,
+.main-tabs-bottom-cap {
+  height: 6px;
+  width: 612px;
+}
+.main-tabs-mini-top-cap {
+  background: transparent url(/yt/img/browse_iconset_960-vfl68093.png) repeat-x scroll 0 -12px;
+}
+.main-tabs-mini-bottom-cap {
+  background: transparent url(/yt/img/browse_iconset_960-vfl68093.png) repeat-x scroll 0 -18px;
+}
+.main-tabs-mini-top-cap,
+.main-tabs-mini-bottom-cap {
+  height: 6px;
+  width: 160px;
+}
+.main-tabs-layout-top .see-more {
+  padding-top: 4px;
+  *padding-top: 0; /* IE crap */
+}
+.main-tabs-layout-top .see-more a {
+  margin-left: 20px;
+}
+
+.grid-view {
+  padding: 0 5px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#browseMain .pagingDiv,
+.browseAdditional .pagingDiv {
+  border-bottom: 0;
+  width: 592px;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+.memberNameContainer {
+  float: left;
+  width: 33.2%;
+}
+
+
+/* right column */
+.browse-categories-right div {
+  width: 135px;
+  margin-right: 10px;
+  margin-top: 5px;
+  float: left;
+  font-size: 12px;
+  padding: 0 3px;
+}
+html > body .browse-categories-right div { /* hide from ie6 */
+  width: 147px;
+}
+.browse-categories-right .category-selected {
+  background-color: #03c;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 2px;
+}
+.browse-categories-right .category-selected a {
+  color: #fff;
+}
+
+.browse-right-column {
+  float: left;
+  width: 160px;
+  margin-top: 38px;
+}
+
+#main-tabs-promo-box {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.main-tabs-promo {
+  float: left;
+  padding: 20px 0 0 10px;
+}
+
+/*
+     FILE ARCHIVED ON 17:09:48 Jan 14, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:49:28 Jan 19, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.514
+  exclusion.robots: 0.033
+  exclusion.robots.policy: 0.023
+  esindex: 0.011
+  cdx.remote: 8.074
+  LoadShardBlock: 109.688 (3)
+  PetaboxLoader3.datanode: 107.172 (4)
+  load_resource: 76.445
+  PetaboxLoader3.resolve: 44.682
+*/

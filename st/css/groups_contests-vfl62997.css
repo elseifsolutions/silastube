@@ -1,0 +1,259 @@
+#groupCommonHeader {
+  border-bottom: 1px dashed #999;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+#groupName {
+  font-weight: bold;
+  font-size: 16px;
+}
+#groupLinks {
+  margin: 6px 0px;
+}
+#groupOptionsDiv {
+  float: right;
+  margin-left: 10px;
+  line-height: 15px;
+}
+#groupFlagAsDiv {
+  padding-top: 5px;
+}
+#groupRecentVideosDiv {
+  padding-top: 2px;
+}
+#groupRecentTopicsDiv {
+  padding: 12px 0px 16px 0px;
+}
+#groupAboutGroupDiv {
+  padding-bottom: 6px;
+}
+
+.groupControlsTop {
+  text-align: right;
+  padding-bottom: 4px;
+}
+.groupControlsBottom {
+  text-align: right;
+  padding-top: 4px;
+}
+
+.brandedInfoBox {
+  padding: 5px 0px;
+  margin-top: 10px;
+  border-top: 1px dashed #999;
+}
+.brandedInfoMain {
+  float: left;
+  width: 400px;
+}
+.brandedStatBox {
+  padding: 25px 0px 0px 0px;
+  font-size: 11px;
+}
+
+.cfacets {
+  margin: 5px 0px;
+  font-size: 11px;
+  line-height: 13px;
+}
+#contestTerms {
+  display: none;
+  width: 655px;
+  z-index: 99;
+  position: absolute;
+  left: 5px;
+  background-color: #ddd;
+  margin: 5px 10px 0 0;
+  border: 2px #ccc solid;
+  padding: 15px 15px 50px 15px;
+}
+#termsBox {
+  padding: 5px;
+  text-align: left;
+  width: 600px;
+  height: 280px;
+  overflow: auto;
+  background-color: #fff;
+}
+.winnerbox {
+  width: 117px;
+  float: right;
+}
+.lowlightBox {
+  text-align: left;
+  padding: 6px;
+  border: 1px solid #333;
+  background-color: #BBB;
+}
+.lowlightBox div.head {
+  margin-left: 6px;
+  font-weight: bold;
+}
+.contestAddForm {
+  text-align: center;
+  width: 130px;
+  padding: 3px 0px;
+  margin: 0px;
+}
+#contestVidHead {
+  width: 650px;
+}
+#contestVids {
+  width: 650px;
+}
+#contestFooterInfo {
+  line-height: 1.3em;
+}
+.thumbArrowL {
+  padding: 10px 0;
+  width: 40px;
+}
+.thumbArrowR {
+  padding: 10px 0;
+}
+
+.contestThumb {
+  vertical-align: top;
+  text-align: center;
+  width: 100px;
+  height: 180px;
+  overflow: auto;
+  padding: 10px 5px;
+}
+.thumbInfo {
+  text-align: left;
+  padding: 3px 0 0 5px;
+}
+.thumbHilite {
+  border: 2px #fc3 solid;
+}
+.cruntime {
+  font-size: 11px;
+  color: #000;
+}
+
+#community-main-header {
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+}
+#community-main-categories {
+  float: right;
+  line-height: 25px;
+}
+
+#communityMain .commEntry {
+  padding-top: 6px;
+  overflow: hidden;
+}
+#communityMain .commHeading, #communityMain .commHeading .headerLink {
+  font-size: 22px;
+  color: #333;
+  border-bottom: 1px solid #DDD;
+  margin-bottom: 4px;
+}
+#communityMain .commHeading .count {
+  color: #666;
+  padding-left: 12px;
+}
+#communityMain .commHeading .more {
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 6px
+}
+#communityMain .commHeading .headerLink {
+  text-decoration: none;
+}
+#communityMain .commHeading .headerLink:hover {
+  text-decoration: underline;
+}
+
+#communityMain h3 {
+  clear: both;
+}
+#communityMain .contest-list {
+  clear: both;
+  padding-left: 2px;
+  /* width: 100%;
+  *margin-right: -5px; */
+}
+#communityMain .contest-list .contest-unit {
+  float: left;
+  list-style: none;
+  margin: 0;
+  width: 120px;
+  height: 12.5em;
+  padding: 10px 10px 0 0;
+  /* *margin-right: 5px; */
+}
+#communityMain .contest-list .contest-unit .user-thumb-jumbo {
+  margin-left: 16px;
+}
+#communityMain .contest-list .contest-unit span {
+  display: block;
+  text-align: center;
+}
+
+#communityMain .contest-list .contest-unit span a, #communityMain #commGroups span a {
+  font-weight: bold;
+  text-decoration: none;
+}
+#communityMain .contest-list .contest-unit span a:hover, #communityMain #commGroups span a:hover {
+  text-decoration: underline;
+}
+#communityMain .contest-list .contest-unit: after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+#communityMain #commGroups .vtitle {
+  width: 100px;
+}
+#communityMain #commGroups .vtitle span {
+  display: block;
+  /*text-align: center;*/
+}
+#communityMain #commGroups .vtitle p {
+  font-weight: normal;
+  margin: 0;
+}
+#fourth-place, #third-place, #second-place, #first-place {
+  font-weight:bold;
+  text-align:center;
+}
+
+#fourth-place {
+  background-color: #ccffcc;
+}
+
+#third-place {
+  background-color: #ffebae;
+}
+
+#second-place {
+  background-color: #ffdbdb;
+}
+
+#first-place {
+  background-color: #cce6ff;
+}
+
+#view-all-entries {
+  text-align: right;
+  margin-top: 10px;
+  display: inline;
+}
+
+.contest-label { 
+  margin-top: 10px; 
+}
+
+#playerDiv .inner {
+  font-weight: bold;
+  font-size: 14px;
+  padding: 20px;
+}

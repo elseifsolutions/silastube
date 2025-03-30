@@ -1,0 +1,56 @@
+}
+#memberContainer{
+    float: left;
+    width: 19.6%;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+#memberBoxList {
+    display: none;
+}
+
+#user-thumb-large {
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-right: 5px;
+}
+
+#vldescbox {
+   margin-top: 2px;
+    font-weight: 700;
+    font-size: 12px;
+    width: 280px;
+    margin-left: 10px;
+    float: left;
+}
+
+#vltitle {
+    padding-bottom: 3px;
+    width: 150px;
+    font-weight: 700;
+}
+
+#vlclearalt {
+    clear: both;
+}
+
+#memberBoxGrid {
+    float: left;
+}
+
+#vlfacets {
+    font-size: 11px;
+    color: #666;
+    line-height: 14px;
+    width: 720px;
+}
+
+#memberBoxTypeContainer {
+    display: none;
+}
+
+#memberStat {
+    width: 70px;
+}

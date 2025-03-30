@@ -1,0 +1,67 @@
+ /*
+-----------------------------------------------
+Quick Edit and Delete Comment Icons
+----------------------------------------------- */
+
+/* Hide it now, show it later with dynamically-generated CSS */
+.item-control {
+   display:none;
+}
+
+.item-control a, .item-action a {
+   text-decoration:none !important;
+}
+
+.widget-item-control {
+  float: right;
+}
+
+.icon-action {
+  border-style: none !important;
+  margin: 0 0 -5px 0.5em !important;
+}
+
+.delete-comment-icon {
+   background: url("/web/20091204012521im_/http://www.blogger.com/img/icon_delete13.gif") no-repeat left;
+
+   /* makes a 14x14 box */
+   padding:7px;
+}
+
+/* Mobile video tags shown on handhelds only.
+   All others get regular video tags. */
+@media all {
+  .BLOG_mobile_video_class {
+    display:none;
+  }
+}
+
+@media handheld {
+  .BLOG_mobile_video_class {
+    display:inline;
+  }
+  .BLOG_video_class {
+    display:none;
+  }
+}
+
+/*
+     FILE ARCHIVED ON 01:25:21 Dec 04, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 23:28:59 Jan 27, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.643
+  exclusion.robots: 0.02
+  exclusion.robots.policy: 0.008
+  esindex: 0.011
+  cdx.remote: 23.478
+  LoadShardBlock: 210.528 (6)
+  PetaboxLoader3.datanode: 145.518 (7)
+  load_resource: 115.64
+  PetaboxLoader3.resolve: 63.242
+*/
