@@ -1,8 +1,8 @@
 <?php
-$host = "mysql13.serv00.com";
-$dbname = "m4299_silastueb";
-$username = "m4299_mehcryo"; 
-$password = "MehcryoVideo1991";
+$host = "";
+$dbname = "";
+$username = ""; 
+$password = "";
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
@@ -25,6 +25,5 @@ if (!isset($_SESSION['user_id'])) {
 }
   
   
- 
+//yea that shit sucks
 ?>
-// this code is sucks
